@@ -1,10 +1,8 @@
 # ERC-Solidity
 
-以太坊智能合约代码实例
-
 - ERC20 - ✅
 - ERC721 - ✅
-- ERC404-Test
+- ERC404-Test -
 - PROXY - 
 - 6551 -
  
