@@ -4,6 +4,7 @@
 
 - ERC20 - ✅
 - ERC721 - ✅
+- ERC404-Test -- https://github.com/Pandora-Labs-Org/erc404-legacy
 - PROXY - 
 - 6551 -
  
