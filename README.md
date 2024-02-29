@@ -4,14 +4,20 @@
 
 - ERC20 - ✅
 - ERC721 - ✅
-- ERC404-Test -- https://github.com/Pandora-Labs-Org/erc404-legacy
+- ERC404-Test
 - PROXY - 
 - 6551 -
  
 ---
 
-## 参考过的ERC20合约
+## Reference-ERC20
 
 https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20
 
 https://etherscan.io/token/0x451fd37983d494bce294295f78a426832376b7df#code
+
+---
+
+## Reference-ERC404
+
+https://github.com/Pandora-Labs-Org/erc404-legacy
