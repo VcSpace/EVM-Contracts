@@ -16,6 +16,16 @@ https://etherscan.io/token/0x451fd37983d494bce294295f78a426832376b7df#code
 
 ---
 
+## Re-ERC721
+
+https://etherscan.io/address/0x160c404b2b49cbc3240055ceaee026df1e8497a0#code
+
+https://etherscan.io/address/0x23051fe0eb93fabe7b314fd56a95f395058c83b9#code
+
+https://etherscan.io/address/0x03b8d129a8f6dc62a797b59aa5eebb11ad63dada#code
+
+---
+
 ## Reference-ERC404
 
 https://github.com/Pandora-Labs-Org/erc404-legacy

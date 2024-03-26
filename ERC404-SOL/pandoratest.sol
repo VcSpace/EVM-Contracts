@@ -23,13 +23,6 @@ contract Pandora is ERC404 {
         baseTokenURI = _tokenURI;
     }
 
-    function setNameSymbol(
-        string memory _name,
-        string memory _symbol
-    ) public onlyOwner {
-        _setNameSymbol(_name, _symbol);
-    }
-
     function tokenURI(uint256 id) public view override returns (string memory) {
         if (bytes(baseTokenURI).length > 0) {
             return string.concat(baseTokenURI, Strings.toString(id));
