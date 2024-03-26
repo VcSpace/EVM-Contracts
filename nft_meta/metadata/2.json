@@ -1,0 +1,19 @@
+{
+    "name": "house-test #2",
+    "description": "house TEST NFT.",
+    "image": "ipfs://QmbjCqXL9jgHMZHSQeU659rhMieoUmhMoKZAM2uxw9ZWzw/2.gif",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Indigo Fluffy"
+        },
+        {
+            "trait_type": "Offhand",
+            "value": "Lantern"
+        },
+        {
+            "trait_type": "Background",
+            "value": "Off White D"
+        }
+    ]
+}
