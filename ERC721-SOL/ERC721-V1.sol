@@ -38,13 +38,13 @@ contract MyToken is ERC721, Ownable {
     }
 
     function _withdraw(uint256 amount) public payable onlyOwner {
-        require(msg.sender == owner, "Only the owner can withdraw");
-        payable(owner).transfer(amount);
+        require(msg.sender == owner(), "Only the owner can withdraw");
+        payable(owner()).transfer(amount);
     }
 
     function _withdrawAll() public payable onlyOwner {
-        require(msg.sender == owner, "Only the owner can withdraw");
-        payable(owner).transfer(address(this).balance);
+        require(msg.sender == owner(), "Only the owner can withdraw");
+        payable(owner()).transfer(address(this).balance);
     }
 
     function mintNFT(uint256 amount, bytes32[] calldata proof) external payable {
