@@ -31,6 +31,10 @@ contract MyToken is ERC721, Ownable {
         whitelistMintEnabled = enable;
     }
 
+    function setlockTime(uint256 timestamp) external onlyOwner {
+        _timelockTime = timestamp;
+    }
+
     function tokenURI(uint256 tokenId) public view override returns (string memory) {
         // Potential place to append the token ID to the base URI for unique metadata per token
         // For now, it simply returns the base URI for all tokens
