@@ -12,6 +12,7 @@ contract MyToken is ERC721, Ownable {
     mapping(address => bool) public mintedAddress;   // 记录已经mint的地址
     bool public whitelistMintEnabled = true;
     uint256 public mintPrice = 0.000001 ether;
+    uint256 _timelockTime = 1711805400;
 
     constructor(address owner, bytes32 root)  ERC721("ARB1MyNFT", "ARB1MTK") Ownable(owner) {
         baseTokenURI = "ipfs://Qmb5BBkm6HYWe7yvEGi4uzCPADGuM9nse7KbXVUpbhMNRu/";
@@ -52,6 +53,7 @@ contract MyToken is ERC721, Ownable {
         require(!mintedAddress[msg.sender], "Address already claimed!");
         require(msg.value >= mintPrice * amount, "Ether sent is not correct");
         require(_verify(_leaf(msg.sender), proof), "Invalid merkle proof"); // Merkle检验通过
+        require(block.timestamp >= _timelockTime, "No TIME");
         while (amount > 0 && amount <= 5) {
             minted++;
             _safeMint(msg.sender, minted);
