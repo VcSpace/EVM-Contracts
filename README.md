@@ -1,5 +1,7 @@
 # ERC-Solidity
 
+**Not tested and should not be used in production environments**
+
 - ERC20 - ✅
 - ERC721 - ✅
   - MerkleTree - ✅
