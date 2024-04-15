@@ -17,7 +17,7 @@ def generate_metadata(num, image_url):
   metadata = {
     "name": f"hummingbird-test #" + num,
     "description": "SCWL TEST NFT.",
-    "image": f"ipfs://bafybeihwot4a5kypwrydloauu25wrdrxwkrt2usaoy7hhnrharoggugxuq/{image_url}"
+    "image": f"ipfs://Qmxxxxxx/{image_url}"
   }
   print(metadata)
   # 返回元数据字典
