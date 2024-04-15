@@ -2,9 +2,12 @@
 
 - ERC20 - ✅
 - ERC721 - ✅
-- ERC404-Test -
-- PROXY - 
-- 6551 -
+  - MerkleTree - ✅
+  - Signature
+- ERC404-Test - 
+- PROXY 
+  - Transparent Proxy -
+  - UUPS -
  
 ---
 
