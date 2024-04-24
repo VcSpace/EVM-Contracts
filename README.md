@@ -11,6 +11,8 @@
   - Transparent Proxy -
   - UUPS -
 - Oracles
+  - Pyth
+  - Link
  
 ---
 
