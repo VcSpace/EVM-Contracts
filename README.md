@@ -10,6 +10,7 @@
 - PROXY 
   - Transparent Proxy -
   - UUPS -
+- Oracles
  
 ---
 
@@ -42,3 +43,15 @@ https://etherscan.io/address/0x9e9fbde7c7a83c43913bddc8779158f1368f0413
 ## fronted
 
 https://github.com/SachinCoder1/gasless-nft-contract-minting
+
+---
+
+## Re-Proxy 
+
+https://github.com/WTFAcademy/WTF-Solidity
+
+---
+
+## Pyth
+
+https://docs.pyth.network/price-feeds/create-your-first-pyth-app
