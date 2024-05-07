@@ -1,4 +1,4 @@
-# ERC-Solidity
+# EVM-Solidity
 
 **Not tested and should not be used in production environments**
 
