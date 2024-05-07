@@ -2,14 +2,14 @@
 
 **Not tested and should not be used in production environments**
 
-- ERC20 - 
-- ERC721 - 
-  - MerkleTree - 
+- ERC20 
+- ERC721 
+  - MerkleTree 
   - Signature
-- ERC404-Test - 
+- ERC404-Test 
 - PROXY 
-  - Transparent Proxy -
-  - UUPS -
+  - Transparent Proxy 
+  - UUPS
 - Oracles
   - Pyth
   - Link
