@@ -2,9 +2,9 @@
 
 **Not tested and should not be used in production environments**
 
-- ERC20 - ✅
-- ERC721 - ✅
-  - MerkleTree - ✅
+- ERC20 - 
+- ERC721 - 
+  - MerkleTree - 
   - Signature
 - ERC404-Test - 
 - PROXY 
