@@ -1,4 +1,4 @@
-# EVM-Solidity
+# EVM-Contracts
 
 **Not tested and should not be used in production environments**
 
