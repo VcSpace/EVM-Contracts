@@ -61,8 +61,8 @@ contract ATOKEN is ERC20, ERC20Burnable, ERC20Permit, Ownable {
         require(!claimed[to], "You have already claimed your tokens");
         require(to != address(0), "ERC20: transfer to the zero address");
         require(balanceOf(address(this)) >= amount, "Don't have enough TKN");
-        _transfer(address(this), to, amount);
         claimed[to] = true;
+        _transfer(address(this), to, amount);        
     }
 
     function transfer(address to, uint256 amount) public override returns (bool) {
