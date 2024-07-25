@@ -1,9 +1,15 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.21;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
 
 contract OtherContract {
-    uint256 private _x = 0;
-    event Log(uint amount, uint gas);
+
+    uint256 public _x;
+
+    event Log(uint256 amount, uint gas);
+
+    constructor() {
+
+    }
 
     function getBalance() view public returns(uint) {
         return address(this).balance;
@@ -19,4 +25,5 @@ contract OtherContract {
     function getX() external view returns(uint x){
         x = _x;
     }
+
 }
