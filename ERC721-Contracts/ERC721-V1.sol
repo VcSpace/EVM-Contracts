@@ -25,7 +25,7 @@ contract MyToken is ERC721, Ownable {
         MerkleRoot = root;
     }
 
-    function tokenURI(uint256 tokenId) public view returns (string memory) {
+    function tokenURI(uint256 tokenId) public view override returns (string memory) {
         return string(abi.encodePacked(baseTokenURI, Strings.toString(tokenId), ".json"));
     }
 
